@@ -21,7 +21,7 @@ return {
   javascript = { "eslint", "quick_lint_js", "rome", "tsserver" },
   latex = { "ltex", "texlab" },
   liquid = { "theme_check" },
-  lua = { "sumneko_lua" },
+  lua = { "lua_ls" },
   markdown = { "marksman", "prosemd_lsp", "remark_ls", "zk" },
   ["metamath-zero"] = { "mm0_ls" },
   nix = { "rnix" },

@@ -301,7 +301,7 @@ return {
   stylelint_lsp = {
     filetypes = { "css", "less", "scss", "sugarss", "vue", "wxss", "javascript", "javascriptreact", "typescript", "typescriptreact" }
   },
-  sumneko_lua = {
+  lua_ls = {
     filetypes = { "lua" }
   },
   svelte = {

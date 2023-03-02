@@ -12,10 +12,10 @@ return function(name, root_dir)
         name = name,
         root_dir = root_dir,
         languages = { "lua" },
-        homepage = "https://github.com/sumneko/lua-language-server",
+        homepage = "https://github.com/LuaLS/lua-language-server",
         installer = function()
             github.unzip_release_file({
-                repo = "sumneko/vscode-lua",
+                repo = "LuaLS/vscode-lua",
                 asset_file = function(version)
                     local target = coalesce(
                         when(
